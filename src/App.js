@@ -14,7 +14,7 @@ import {UserContextProvider} from './context/userContext';
 
 
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://etlhive-assessment-backend.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
